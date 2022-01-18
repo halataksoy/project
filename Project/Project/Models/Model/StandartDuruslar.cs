@@ -8,20 +8,20 @@ using System.Web;
 
 namespace Project.Models.Model
 {
-    [Table("Standart Duruşlar")]
+    [Table("StandartDuruslar")]
     public class StandartDuruslar
     {
         [Key]
         public int TabloId { get; set; }
         [Required]
         [DisplayName("İş Numarası")]
-        public int İsNumarasi { get; set; }
+        public int IsNumarasi { get; set; }
         [Required]
         [DisplayName("Başlama Saati")]
         public DateTime Baslangic { get; set; }
         [Required]
         [DisplayName("Bitirme Saati")]
-        public float Bitirme { get; set; }
+        public DateTime Bitirme { get; set; }
         [DisplayName("Duruş Nedeni")]
         public string DurusNedeni { get; set; }
     }

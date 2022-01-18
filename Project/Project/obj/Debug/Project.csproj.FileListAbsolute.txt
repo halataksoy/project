@@ -21,7 +21,6 @@ C:\Users\Halat\Desktop\Project\Project\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Halat\Desktop\Project\Project\bin\System.Web.WebPages.Razor.xml
 C:\Users\Halat\Desktop\Project\Project\bin\Newtonsoft.Json.xml
 C:\Users\Halat\Desktop\Project\Project\bin\Antlr3.Runtime.pdb
-C:\Users\Halat\Desktop\Project\Project\obj\Debug\Project.csprojAssemblyReference.cache
 C:\Users\Halat\Desktop\Project\Project\obj\Debug\Project.csproj.CoreCompileInputs.cache
 C:\Users\Halat\Desktop\Project\Project\obj\Debug\Project.csproj.CopyComplete
 C:\Users\Halat\Desktop\Project\Project\obj\Debug\Project.dll

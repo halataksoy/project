@@ -8,14 +8,14 @@ using System.Web;
 
 namespace Project.Models.Model
 {
-    [Table("Üretim Operasyon Bildirimleri")]
+    [Table("UretimOperasyonBildirimleri")]
     public class UretimOperasyonBildirim
     {
         [Key]
         public int TabloId { get; set; }
         [Required]
         [DisplayName("İş Numarası")]
-        public int İsNumarasi { get; set; }
+        public int IsNumarasi { get; set; }
         [Required]
         [DisplayName("Başlama Saati")]
         public DateTime Baslangic { get; set; }
@@ -24,7 +24,7 @@ namespace Project.Models.Model
         public DateTime Bitirme { get; set; }
         [Required]
         [DisplayName("Toplam Süre")]
-        public float ToplamSure { get; set; }
+        public decimal ToplamSure { get; set; }
         [Required]
         [DisplayName("Statü")]
         public string Statu { get; set; }
